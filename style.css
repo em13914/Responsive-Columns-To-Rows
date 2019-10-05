@@ -1,4 +1,4 @@
-/* DESKTOP CLASSES */
+/* DESKTOP RULES */
 body {
 	width: 100vw;
 	height: 100vh;
@@ -17,7 +17,8 @@ body {
 .red { background-color: #CA1B22; }
 .orange { background-color: #EA6626; }
 
-/* MOBILE CLASSES */
+/* MOBILE RULES */
+/* When the viewport hits the breakpoint of 750 pixels the media query engages */
 @media only screen and (max-width: 750px) {
 	body {
 		display: block;
